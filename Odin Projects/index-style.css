@@ -1,0 +1,28 @@
+.paragraph-one { 
+    background-color: #f54275;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#div-one{
+    background-color: white;
+    color: blue;
+    font-size: 36px; 
+}
+
+.paragraph-two { 
+    background-color: #f54275;
+    font-size: 24px;
+    font-family: DejaVu Sans;
+}
+
+#div-two { 
+    background-color: #75f542;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.paragraph-three { 
+    background-color: #f54275;
+    font-size: 15px;
+    font-family: sans-serif;
+}
