@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <!--Header-->
+    <div class = "header">
+            <p class = 'header-text'>Rock Paper Scissors</p>
+    </div>
+    <!--End of the header-->
+    <!--Start of body-->
+    <div class = body>
+        <!--Start of the description-->
+        <div class = 'description'>
+            <p class ='first' id = "scoreMessage">First to five wins</p>
+            <p class ='last' id = "scoreInfo">Human vs Computer </p>
+        </div>
+        <!--End of the description-->
+        <!--Start of the user boxes-->
+        <div class = "user-boxes"> 
+            <div class = "human-box">
+                <p class = "question-mark" id="playerSign">❔</p>
+                <p class = "text" id = "playerScore">Human:0️⃣</p>
+            </div>
+            <div class = "computer-box">
+                <p class = "question-mark" id = "computerSign">❔</p>
+                <p class = "text" id = "computerScore">Computer:0️⃣ </p>
+            </div>
+        </div>
+        <!--End of the boxes-->
+        <!--Start of the option boxes-->
+        <div class = "options-boxes"> 
+            <div class = "box">
+                <button class = "emoji" id = "rock-btn">🪨</button>
+            </div>
+            <div class = "box">
+                <button class = "emoji" id="paper-btn">📄</button>
+            </div>
+            <div class = "box">
+                <button class = "emoji" id="scissor-btn">✂️</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
